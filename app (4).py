@@ -11,7 +11,7 @@ import gdown
 
 st.set_page_config(page_title="Agri-Smart Advisor", layout="wide")
 
-MODEL_FILE_ID = "PASTE_YOUR_DRIVE_FILE_ID_HERE"
+MODEL_FILE_ID = "https://drive.google.com/file/d/1NzmXgv3nDe0xorHoxhWF06cYLd21UMM4/view?usp=drive_link"
 MODEL_PATH = "corn_model.h5"
 
 @st.cache_resource

@@ -20,7 +20,7 @@ def load_model_and_indices():
         url = f'https://drive.google.com/uc?id={MODEL_FILE_ID}'
         gdown.download(url, MODEL_PATH, quiet=False)
     
-    model = tf.keras.models.load_model(MODEL_PATH)
+    model = tf.keras.models.load_model(MODEL_PATH, compile=False)
     
     class_names = {
         0: 'Maize_Blight', 
